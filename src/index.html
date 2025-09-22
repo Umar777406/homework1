@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <div>
     <header class="bg-[#040D21] p-[20px]">
-        <nav class="flex justify-around">
+        <nav class="flex justify-around max-w-[1200px] m-auto">
             <img src="KJUJ.png" alt="">
             <ul class="flex gap-[30px] md:text-[11px] lg:text-[15px] text-gray-500 hidden md:flex">
                 <li>Услуги </li>
@@ -29,7 +28,36 @@
 </svg>
 
         </nav>
-    </header>
+            <section class="flex flex-col lg:flex-row lg: justify-around gap-5 mt-[50px] max-w-[1200px] m-auto">
+        <aside>
+            <h1 class="font-bold text-[55px] text-[white]">Все виды <br> грузоперевозок</h1> <br>
+<p class="text-white">Мы бережно доставим любой груз от 1 тонны <br> до 20 тонн в любую точку страны!</p> <br>
+<ul class="flex gap-[15px] text-white">
+    <li>скоропортящиеся</li>
+    <li>крупногабаритные</li>
+    <li>негабаритные грузы</li>
+</ul>
+<button class="w-[270px] h-[60px] text-white rounded-[5px] bg-[#3284FF] mt-[30px]">Рассчитать стоимость</button>
+        </aside>
+        <aside>
+            <img src="Шар 0 копія 2.png" alt="">
+        </aside>
+    </section>
+<div class="rounded-[25px] m-auto shadow-[1px_1px_1px_1px_gray] bg-white relative top-[70px] gap-[20px] flex flex-col md:flex-row md:justify-around p-[20px]">
+        <aside>
+          <h1 class="text-[23px] font-[600]">Быстрый заказ услуг</h1>
+          <p class="text-gray-500">Заполните, пожалуйста, форму</p>
+        </aside>
+        <aside>
+             <input type="text" placeholder="Иван" class="border border-gray-300 rounded px-2 py-1 flex-1">
+        </aside>
+        <aside>
+              <input type="tel" placeholder="+7 (___) ___-__-__" class="border border-gray-300 rounded px-2 py-1 w-40">
+        </aside>
+        <aside>
+             <button class="text-blue-600 font-medium">Перезвоните мне</button>
+        </aside>
     </div>
+    </header>
 </body>
 </html>
